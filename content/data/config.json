@@ -1,0 +1,141 @@
+{
+    "title": "Kloudvibe DevOps BootCamp in ParkRidge IL",
+    "path_prefix": "/",
+    "base_font": "nunito-sans",
+    "palette": "blue",
+    "header": {
+        "logo_img": "/images/logo1-h-k7f8ixth-1.png",
+        "logo_img_alt": "Logo",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Home",
+                "url": "/",
+                "style": "secondary"
+            },
+            {
+                "label": "Upcoming Courses",
+                "url": "/courses",
+                "style": "secondary"
+            },
+            {
+                "label": "About us",
+                "url": "/about",
+                "style": "secondary"
+            }
+        ]
+    },
+    "footer": {
+        "sections": [
+            {
+                "type": "footer_text",
+                "image": "/images/logo1-h-k7f8ixth-1.png",
+                "image_url": "/",
+                "image_alt": "Footer logo",
+                "content": "*info@kloudvibe.com*\n\n**773-474-3080**\n\n**773-875-0910**\n"
+            },
+            {
+                "type": "footer_nav",
+                "title": "Company",
+                "nav_links": [
+                    {
+                        "label": "About Us",
+                        "url": "/about",
+                        "style": "link"
+                    },
+                    {
+                        "label": "News and Interesting Articles",
+                        "url": "/blog",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Check Our Courses",
+                        "url": "/courses",
+                        "style": "secondary"
+                    }
+                ]
+            },
+            {
+                "type": "footer_nav",
+                "title": "Community",
+                "nav_links": [
+                    {
+                        "label": "Twitter",
+                        "url": "https://twitter.com/",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "twitter",
+                        "icon_position": "left"
+                    },
+                    {
+                        "label": "LinkedIn",
+                        "url": "https://www.linkedin.com/",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "linkedin",
+                        "icon_position": "left"
+                    },
+                    {
+                        "label": "GitHub",
+                        "url": "https://github.com/",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "github",
+                        "icon_position": "left"
+                    },
+                    {
+                        "label": "Facebook",
+                        "url": "https://www.facebook.com/klouduser",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "facebook",
+                        "icon_position": "left",
+                        "new_window": false,
+                        "no_follow": false
+                    }
+                ]
+            },
+            {
+                "type": "footer_form",
+                "title": "Subscribe",
+                "content": "Stay up to date with our latest developments.",
+                "form_id": "subscribeForm",
+                "hide_labels": true,
+                "form_fields": [
+                    {
+                        "input_type": "email",
+                        "name": "email",
+                        "label": "Email",
+                        "default_value": "Enter email address",
+                        "is_required": true
+                    },
+                    {
+                        "input_type": "text",
+                        "name": "Name",
+                        "label": "Name",
+                        "default_value": "Your name",
+                        "options": [],
+                        "is_required": false
+                    }
+                ],
+                "submit_label": "Subscribe"
+            }
+        ],
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Terms of Service",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "Privacy Policy",
+                "url": "/",
+                "style": "link"
+            }
+        ],
+        "content": "&copy; Kloudvibe. All rights reserved. "
+    },
+    "domain": "https://next-js-9111b.netlify.app",
+    "favicon": "/images/Docker-logo.jpg"
+}
